@@ -56,9 +56,18 @@ const fetchAndDisplayData = (url, submenuSelector, menuSelector, key) => {
                     let p = document.createElement('p');
                     p.textContent = item.data ? item.data + ' - ' + item.horario : item.nome + ' - ' + (item.comum || item.setor) + ' - ' + (item.numero || item.fixo);
 
-                    div.appendChild(h2);
-                    div.appendChild(p);
-                    submenu.appendChild(div);
+                    if(window.location.href.includes('contatos')){
+                        let link = document.createElement('a');
+                        link.href = `https://wa.me/${item.numero}`;
+                            div.appendChild(h2);
+                            div.appendChild(p);
+                            link.appendChild(div);
+                            submenu.appendChild(link)
+                    } else {
+                        div.appendChild(h2);
+                        div.appendChild(p);
+                        submenu.appendChild(div);
+                    }
                 });
             }
         })
