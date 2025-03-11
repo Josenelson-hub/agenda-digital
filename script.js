@@ -1,11 +1,11 @@
 const url = window.location.href;
-const dados = fetch('../json/info.json')
+const dados = fetch('json/info.json')
 
 // Função genérica para renderizar os dados
 const renderData = (url, key, label1, label2) => {
     if (window.location.href.includes(url)) {
         let main = document.querySelector('.main');
-        fetch('../json/info.json')  // Use o arquivo correto dependendo da sua necessidade
+        fetch(dados)  // Use o arquivo correto dependendo da sua necessidade
             .then(res => res.json())
             .then(data => {
                 const items = data[key]; // A chave que contém os dados a serem renderizados
@@ -68,31 +68,31 @@ const fetchAndDisplayData = (url, submenuSelector, menuSelector, key) => {
 const initEventListeners = () => {
     // Reuniões de Eventos
     if (window.location.href.includes('eventos')) {
-        fetchAndDisplayData('../json/eventos.json', '.mocidade', '#mocidade', 'mocidade');
-        fetchAndDisplayData('../json/eventos.json', '.jovens', '#jovens', 'mocidade'); // Pode ser ajustado conforme necessidade
-        fetchAndDisplayData('../json/eventos.json', '.conselho', '#conselho', 'mocidade');
+        fetchAndDisplayData('json/eventos.json', '.mocidade', '#mocidade', 'mocidade');
+        fetchAndDisplayData('json/eventos.json', '.jovens', '#jovens', 'mocidade'); // Pode ser ajustado conforme necessidade
+        fetchAndDisplayData('json/eventos.json', '.conselho', '#conselho', 'mocidade');
     }
 
     // Reuniões
     if (window.location.href.includes('reunioes')) {
-        fetchAndDisplayData('../json/reunioes.json', '.RA', '#RA', 'ra');
-        fetchAndDisplayData('../json/reunioes.json', '.RMA', '#RMA', 'rma');
-        fetchAndDisplayData('../json/reunioes.json', '.RML', '#RML', 'rml');
-        fetchAndDisplayData('../json/reunioes.json', '.RRM', '#RRM', 'rrm');
-        fetchAndDisplayData('../json/reunioes.json', '.anciaes', '#anciaes', 'anciaes');
-        fetchAndDisplayData('../json/reunioes.json', '.diacono', '#diacono', 'diaconos');
-        fetchAndDisplayData('../json/reunioes.json', '.manutencao', '#manutencao', 'manutencao');
-        fetchAndDisplayData('../json/reunioes.json', '.piedade', '#piedade', 'piedade');
+        fetchAndDisplayData('json/reunioes.json', '.RA', '#RA', 'ra');
+        fetchAndDisplayData('json/reunioes.json', '.RMA', '#RMA', 'rma');
+        fetchAndDisplayData('json/reunioes.json', '.RML', '#RML', 'rml');
+        fetchAndDisplayData('json/reunioes.json', '.RRM', '#RRM', 'rrm');
+        fetchAndDisplayData('json/reunioes.json', '.anciaes', '#anciaes', 'anciaes');
+        fetchAndDisplayData('json/reunioes.json', '.diacono', '#diacono', 'diaconos');
+        fetchAndDisplayData('json/reunioes.json', '.manutencao', '#manutencao', 'manutencao');
+        fetchAndDisplayData('json/reunioes.json', '.piedade', '#piedade', 'piedade');
     }
 
     // Contatos
     if (window.location.href.includes('contatos')) {
-        fetchAndDisplayData('../json/contato.json', '.anciaes', '#anciaes', 'anciaes');
-        fetchAndDisplayData('../json/contato.json', '.diaconos', '#diaconos', 'diaconos');
-        fetchAndDisplayData('../json/contato.json', '.oficial', '#oficial', 'oficial');
-        fetchAndDisplayData('../json/contato.json', '.jovens', '#jovens', 'jovens');
-        fetchAndDisplayData('../json/contato.json', '.adm', '#adm', 'adm');
-        fetchAndDisplayData('../json/contato.json', '.musica', '#musica', 'musica');
+        fetchAndDisplayData('json/contato.json', '.anciaes', '#anciaes', 'anciaes');
+        fetchAndDisplayData('json/contato.json', '.diaconos', '#diaconos', 'diaconos');
+        fetchAndDisplayData('json/contato.json', '.oficial', '#oficial', 'oficial');
+        fetchAndDisplayData('json/contato.json', '.jovens', '#jovens', 'jovens');
+        fetchAndDisplayData('json/contato.json', '.adm', '#adm', 'adm');
+        fetchAndDisplayData('json/contato.json', '.musica', '#musica', 'musica');
     }
 };
 
