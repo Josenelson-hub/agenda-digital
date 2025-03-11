@@ -54,11 +54,11 @@ const fetchAndDisplayData = (url, submenuSelector, menuSelector, key) => {
                     h2.textContent = item.local;
 
                     let p = document.createElement('p');
-                    p.textContent = item.data ? item.data + ' - ' + item.horario : item.nome + ' - ' + (item.comum || item.setor) + ' - ' + (item.numero || item.fixo);
+                    p.textContent = item.data ? item.data + ' - ' + item.horario : item.nome + ' - ' + (item.numero ? item.numero.replace('5512', '(12) ') : item.fixo);
 
                     if(window.location.href.includes('contatos')){
                         let link = document.createElement('a');
-                        link.href = `https://wa.me/5512${item.numero}`;
+                        link.href = `https://wa.me/${item.numero}`;
                             div.appendChild(h2);
                             div.appendChild(p);
                             link.appendChild(div);
