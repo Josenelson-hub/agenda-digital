@@ -5,10 +5,10 @@ const dados = fetch('json/info.json')
 const renderData = (url, key, label1, label2) => {
     if (window.location.href.includes(url)) {
         let main = document.querySelector('.main');
-        fetch(dados)  // Use o arquivo correto dependendo da sua necessidade
+        fetch('json/info.json')
             .then(res => res.json())
             .then(data => {
-                const items = data[key]; // A chave que contém os dados a serem renderizados
+                const items = data[key];
                 items.forEach(item => {
                     let div = document.createElement('div');
                     div.classList.add('list');
@@ -69,7 +69,7 @@ const initEventListeners = () => {
     // Reuniões de Eventos
     if (window.location.href.includes('eventos')) {
         fetchAndDisplayData('json/eventos.json', '.mocidade', '#mocidade', 'mocidade');
-        fetchAndDisplayData('json/eventos.json', '.jovens', '#jovens', 'mocidade'); // Pode ser ajustado conforme necessidade
+        fetchAndDisplayData('json/eventos.json', '.jovens', '#jovens', 'mocidade');
         fetchAndDisplayData('json/eventos.json', '.conselho', '#conselho', 'mocidade');
     }
 
@@ -96,5 +96,4 @@ const initEventListeners = () => {
     }
 };
 
-// Chama a função quando a página for carregada
 document.addEventListener('DOMContentLoaded', initEventListeners);
