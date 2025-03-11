@@ -58,7 +58,7 @@ const fetchAndDisplayData = (url, submenuSelector, menuSelector, key) => {
 
                     if(window.location.href.includes('contatos')){
                         let link = document.createElement('a');
-                        link.href = `https://wa.me/${item.numero}`;
+                        link.href = `https://wa.me/5512${item.numero}`;
                             div.appendChild(h2);
                             div.appendChild(p);
                             link.appendChild(div);
