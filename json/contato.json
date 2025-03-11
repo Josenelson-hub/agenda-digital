@@ -1,0 +1,472 @@
+{
+    "anciaes": [
+        {
+            "nome": "Benedito Gois",
+            "comum": "Lázaro",
+            "fixo": "3848-0240"
+        },
+        {
+            "nome": "Claudio Oliveira",
+            "comum": "Centro",
+            "numero": "997735898"
+        },
+        {
+            "nome": "Ivan Constantino",
+            "comum": "Lagoinha",
+            "numero": "997003159"
+        },
+        {
+            "nome": "Zaqueu Costa",
+            "comum": "Lázaro",
+            "numero": "997669806"
+        },
+        {
+            "nome": "Carlos A dos S.",
+            "comum": "Centro",
+            "numero": "996465554"
+        },
+        {
+            "nome": "Marcos Roberto R.",
+            "comum": "Centro",
+            "numero": "991079275"
+        },
+        {
+            "nome": "Manoel Gilberto P. F.",
+            "comum": "Lázaro",
+            "numero": "997664039"
+        }
+    ],
+    "diaconos": [
+        {
+            "nome": "Benedito Solindo",
+            "comum": "Lázaro",
+            "fixo": "3842-3622"
+        },
+        {
+            "nome": "Luiz SolCarlos Frade",
+            "comum": "Centro",
+            "numero": "991985101"
+        },
+        {
+            "nome": "José Maria Santana",
+            "comum": "Marafunda",
+            "numero": "996384371"
+        },
+        {
+            "nome": "Edgar Solindo Cruz",
+            "comum": "Lázaro",
+            "numero": "997671653"
+        },
+        {
+            "nome": "Arnaldo Gonç. Stos",
+            "comum": "Rio escuro",
+            "numero": "994813294"
+        },
+        {
+            "nome": "José M. Santo e Silva",
+            "comum": "Ipiranguinha",
+            "numero": "3997166701"
+        },
+        {
+            "nome": "Cleyton Pires Pereira",
+            "comum": "S. da Quina",
+            "numero": "997074334"
+        },
+        {
+            "nome": "Elias da Encarnação",
+            "comum": "S. da Quina",
+            "numero": "997657836"
+        },
+        {
+            "nome": "Cristiano C. de Jesus",
+            "comum": "Lázaro",
+            "numero": "997955046"
+        },
+        {
+            "nome": "Celso da Silva",
+            "comum": "Centro",
+            "numero": "997560888"
+        },
+        {
+            "nome": "Odair Morais Alves P.",
+            "comum": "Lázaro",
+            "numero": "997430226"
+        }
+    ],
+    "oficial": [
+        {
+            "nome": "Paulo dos Santos",
+            "comum": "Ipiranguinha",
+            "numero": "996066192"
+        },
+        {
+            "nome": "João Goes",
+            "comum": "Pereque Mirim",
+            "numero": "974024080"
+        },
+        {
+            "nome": "Manoel A. dos Santos",
+            "comum": "S. da Quina",
+            "numero": "997339979"
+        },
+        {
+            "nome": "Benedito de Matos",
+            "comum": "Pereque Açu",
+            "fixo": "3833-7163"
+        },
+        {
+            "nome": "Francisco Dos Santos",
+            "comum": "",
+            "numero": "997527642"
+        },
+        {
+            "nome": "Luiz Carlos de Morais",
+            "comum": "Lagoinha",
+            "numero": "997644197"
+        },
+        {
+            "nome": "Clementino R. Neto",
+            "comum": "Horto",
+            "numero": "992430335"
+        },
+        {
+            "nome": "João Luiz Lopes Abreu",
+            "comum": "Sesmaria",
+            "numero": "997487819"
+        },
+        {
+            "nome": "Paulo S. T. Rosário",
+            "comum": "Mte Valério",
+            "fixo": "3833-6621"
+        },
+        {
+            "nome": "Damasio Assunção",
+            "comum": "Ubatumirim",
+            "numero": "997411164"
+        },
+        {
+            "nome": "Altivo Fernandes",
+            "comum": "Folha Seca",
+            "numero": "997837583"
+        },
+        {
+            "nome": "Patrik Costa Barreto",
+            "comum": "Praia Brava",
+            "numero": "99663918"
+        },
+        {
+            "nome": "Mario Lelis Mattos",
+            "comum": "Toninhas",
+            "numero": "997156458"
+        },
+        {
+            "nome": "Charles T. Oliveira",
+            "comum": "C. Macacos",
+            "numero": "997207672"
+        },
+        {
+            "nome": "Oliveira G. dos Santos",
+            "comum": "Corcovado",
+            "numero": "997392766"
+        },
+        {
+            "nome": "Benedito de Oliveira",
+            "comum": "Tabatinga",
+            "numero": "996808809"
+        },
+        {
+            "nome": "Marco Aurelio Xavier",
+            "comum": "Lázaro",
+            "numero": "997693193"
+        },
+        {
+            "nome": "Antonio B. C. Soares",
+            "comum": "Casanga",
+            "numero": "991536024"
+        },
+        {
+            "nome": "Isaque Gouvea",
+            "comum": "Marafunda",
+            "numero": "996752998"
+        },
+        {
+            "nome": "Wagner M. da Silva",
+            "comum": "Maranduba",
+            "numero": "996752998"
+        },
+        {
+            "nome": "Janio dos S. Barreto",
+            "comum": "Centro",
+            "numero": "997207672"
+        },
+        {
+            "nome": "Giovani Q. Costa",
+            "comum": "Rio escuro",
+            "numero": "974020795"
+        }
+    ],
+    "musica": [
+        {
+            "nome": "Josias de Carvalho",
+            "comum": "Pereque Mirim",
+            "numero": "997578342"
+        },
+        {
+            "nome": "José Marcio G. Ferreira",
+            "comum": "Marafunda",
+            "numero": "997705614"
+        }
+    ],
+    "fiscal": [
+        {
+            "nome": "Luciano de Matos Lino",
+            "numero": "997207672"
+        },
+        {
+            "nome": "André Tavares da Cruz",
+            "numero": "997497265"
+        },
+        {
+            "nome": "Rodrigo F. Cabral",
+            "numero": "997389524"
+        },
+        {
+            "nome": "Jeter Ferreira De araujo",
+            "numero": "997771618"
+        }
+    ],
+    "jovens": [
+        {
+            "nome": "João Batista da Cruz",
+            "comum": "Ipiranguinha",
+            "numero": "996413721"
+        },
+        {
+            "nome": "Rafael Cabral Pereira",
+            "comum": "Pereque Mirim",
+            "numero": "974024080"
+        },
+        {
+            "nome": "Samuel Inacio Martins",
+            "comum": "S. da Quina",
+            "numero": "997389872"
+        },
+        {
+            "nome": "Antonio Nn.B. Coimbra",
+            "comum": "Pereque Açu",
+            "numero": "997936228"
+        },
+        {
+            "nome": "Odair Torres",
+            "comum": "Horto",
+            "numero": "997304863"
+        },
+        {
+            "nome": "Adilson Lopes de Abreu",
+            "comum": "Sesmaria",
+            "numero": "996432620"
+        },
+        {
+            "nome": "Marcos P. Nascimento",
+            "comum": "Folha Seca",
+            "numero": "997598189"
+        },
+        {
+            "nome": "Breno Moraes Ramos",
+            "comum": "Praia Brava",
+            "numero": "997367319"
+        },
+        {
+            "nome": "Luiz Carlos Ramos",
+            "comum": "C. Macacos",
+            "numero": "996393949"
+        },
+        {
+            "nome": "Ely Alves dos Santos",
+            "comum": "Corcovado",
+            "numero": "997392766"
+        },
+        {
+            "nome": "Josúe G.Teixeira",
+            "comum": "Lázaro",
+            "numero": "997861598"
+        },
+        {
+            "nome": "Vanil A. Teixeira",
+            "comum": "M. Félix",
+            "numero": "997486572"
+        },
+        {
+            "nome": "Elizeu dos Santos",
+            "comum": "Marafunda",
+            "numero": "997230603"
+        },
+        {
+            "nome": "Edvaldo de Oliveira",
+            "comum": "Maranduba",
+            "numero": "996752998"
+        },
+        {
+            "nome": "Marcos W.G. Ferreira",
+            "comum": "Centro",
+            "numero": "997207672"
+        },
+        {
+            "nome": "Valdir Cadete da Costa",
+            "comum": "Rio escuro",
+            "numero": "997619061"
+        }
+    ],
+    "adm" : [
+        {
+            "nome": "Jarbas Dias da Silva",
+            "setor": "Presidente",
+            "numero": "996441462"
+        },
+        {
+            "nome": "Donizete Monteiro",
+            "setor": "1 Vice Presid.",
+            "numero": "996236180"
+        },
+        {
+            "nome": "Luiz Ricardo de Souza",
+            "setor": "Secretário",
+            "numero": "996576770"
+        },
+        {
+            "nome": "Gideão Pereira",
+            "setor": "V. Secretário",
+            "numero": "991858624"
+        },
+        {
+            "nome": "Marcos de M. Pereira",
+            "setor": "2V. Secretário",
+            "numero": "997545505"
+        },
+        {
+            "nome": "Manuel Duarte",
+            "setor": "Tesoureiro",
+            "numero": "996198885"
+        },
+        {
+            "nome": "Diego de Oliveira Silva",
+            "setor": "V. Tesoureiro",
+            "numero": "996211690"
+        },
+        {
+            "nome": "Leandro Santos",
+            "setor": "Auxiliar",
+            "numero": "974074174"
+        },
+        {
+            "nome": "Israel Gabriel Filho",
+            "setor": "Fnd. Biblíco",
+            "numero": "996436404"
+        },
+        {
+            "nome": "Paulo Góes",
+            "setor": "Patrimônio",
+            "numero": "994581437"
+        },
+        {
+            "nome": "Leandro Olivério Carv.",
+            "setor": "Aux. Piedade",
+            "numero": "981231638"
+        },
+        {
+            "nome": "Elizier Solidonio Cruz",
+            "setor": "Aux. Piedade",
+            "numero": "997222116"
+        },
+        {
+            "nome": "Paschoal R.A. Trindade",
+            "setor": "Compras",
+            "numero": "997216470"
+        },
+        {
+            "nome": "Jonas Garcia dos S.",
+            "setor": "Engenharia",
+            "numero": "997278057"
+        },
+        {
+            "nome": "Bernardo Domingos",
+            "setor": "Auxiliar",
+            "numero": "992419594"
+        },
+        {
+            "nome": "Anivandro Ferr. Jesus",
+            "setor": "Auxiliar",
+            "numero": "997635794"
+        },
+        {
+            "nome": "José Everaldo dos S.",
+            "setor": "Auxiliar",
+            "numero": "992233900"
+        },
+        {
+            "nome": "Silvio Ricardo de Matos",
+            "setor": "Segurança",
+            "numero": "991837273"
+        },
+        {
+            "nome": "Ernesto do Prado",
+            "setor": "Patrimônio",
+            "numero": "996598777"
+        },
+        {
+            "nome": "Abimael Candido de Jesus",
+            "setor": "Eletrica",
+            "numero": "997197935"
+        },
+        {
+            "nome": "Leonardo Luiza Goes",
+            "setor": "Piedade",
+            "numero": "981367523"
+        },
+        {
+            "nome": "Reginaldo B. de Gouvea",
+            "setor": "Coord. Manutenção",
+            "numero": "996398652"
+        },
+        {
+            "nome": "Elden Jares Arriero Souza",
+            "setor": "Engenharia",
+            "numero": "996328099"
+        },
+        {
+            "nome": "José Nelson Leite Junior",
+            "setor": "Informática",
+            "numero": "996831810"
+        },
+        {
+            "nome": "Luiz Henrique",
+            "setor": "Informática",
+            "numero": "991896981"
+        },
+        {
+            "nome": "Alex S. dos Santos",
+            "setor": "Eletrica",
+            "numero": "996468008"
+        },
+        {
+            "nome": "Erivelton Fernandes",
+            "setor": "Pintura",
+            "numero": "997792022"
+        },
+        {
+            "nome": "Marcelo Fernandes S.",
+            "setor": "Segurança",
+            "numero": "997523894"
+        },
+        {
+            "nome": "Maria Lucia Petitto",
+            "setor": "Engenharia",
+            "numero": "998723365"
+        },
+        {
+            "nome": "João Carlos S. Pereira",
+            "setor": "Coord. Manutenção",
+            "numero": "997941368"
+        }
+    ]
+}

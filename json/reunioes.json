@@ -1,0 +1,468 @@
+{
+    "rml": [
+        {
+            "data": "11/01/2025",
+            "local": "Lazáro",
+            "horario": "15h"
+        },
+        {
+            "data": "08/02/2025",
+            "local": "Lazáro",
+            "horario": "15h"
+        },
+        {
+            "data": "08/03/2025",
+            "local": "Lazáro",
+            "horario": "15h"
+        },
+        {
+            "data": "12/04/2025",
+            "local": "Lazáro",
+            "horario": "15h"
+        },
+        {
+            "data": "10/05/2025",
+            "local": "Lazáro",
+            "horario": "15h"
+        },
+        {
+            "data": "14/06/2025",
+            "local": "Lazáro",
+            "horario": "15h"
+        },
+        {
+            "data": "12/07/2025",
+            "local": "Lazáro",
+            "horario": "15h"
+        },
+        {
+            "data": "09/08/2025",
+            "local": "Lazáro",
+            "horario": "15h"
+        },
+        {
+            "data": "13/09/2025",
+            "local": "Lazáro",
+            "horario": "15h"
+        },
+        {
+            "data": "11/10/2025",
+            "local": "Lazáro",
+            "horario": "15h"
+        },
+        {
+            "data": "08/11/2025",
+            "local": "Lazáro",
+            "horario": "15h"
+        },
+        {
+            "data": "13/12/2025",
+            "local": "Lazáro",
+            "horario": "15h"
+        }
+    ],
+    "piedade": [
+        {
+            "data": "11/01/2025",
+            "local": "Lazáro",
+            "horario": "09h"
+        },
+        {
+            "data": "08/02/2025",
+            "local": "Lazáro",
+            "horario": "09h"
+        },
+        {
+            "data": "08/03/2025",
+            "local": "Lazáro",
+            "horario": "09h"
+        },
+        {
+            "data": "12/04/2025",
+            "local": "Lazáro",
+            "horario": "09h"
+        },
+        {
+            "data": "10/05/2025",
+            "local": "Lazáro",
+            "horario": "09h"
+        },
+        {
+            "data": "14/06/2025",
+            "local": "Lazáro",
+            "horario": "09h"
+        },
+        {
+            "data": "12/07/2025",
+            "local": "Lazáro",
+            "horario": "09h"
+        },
+        {
+            "data": "09/08/2025",
+            "local": "Lazáro",
+            "horario": "09h"
+        },
+        {
+            "data": "13/09/2025",
+            "local": "Lazáro",
+            "horario": "09h"
+        },
+        {
+            "data": "11/10/2025",
+            "local": "Lazáro",
+            "horario": "09h"
+        },
+        {
+            "data": "08/11/2025",
+            "local": "Lazáro",
+            "horario": "09h"
+        },
+        {
+            "data": "13/12/2025",
+            "local": "Lazáro",
+            "horario": "09h"
+        }
+    ],
+    "anciaes": [
+        {
+            "data": "11/01/2025",
+            "local": "Lazáro",
+            "horario": "13h"
+        },
+        {
+            "data": "08/02/2025",
+            "local": "Lazáro",
+            "horario": "13h"
+        },
+        {
+            "data": "08/03/2025",
+            "local": "Lazáro",
+            "horario": "13h"
+        },
+        {
+            "data": "12/04/2025",
+            "local": "Lazáro",
+            "horario": "13h"
+        },
+        {
+            "data": "10/05/2025",
+            "local": "Lazáro",
+            "horario": "13h"
+        },
+        {
+            "data": "14/06/2025",
+            "local": "Lazáro",
+            "horario": "13h"
+        },
+        {
+            "data": "12/07/2025",
+            "local": "Lazáro",
+            "horario": "13h"
+        },
+        {
+            "data": "09/08/2025",
+            "local": "Lazáro",
+            "horario": "13h"
+        },
+        {
+            "data": "13/09/2025",
+            "local": "Lazáro",
+            "horario": "13h"
+        },
+        {
+            "data": "11/10/2025",
+            "local": "Lazáro",
+            "horario": "13h"
+        },
+        {
+            "data": "08/11/2025",
+            "local": "Lazáro",
+            "horario": "13h"
+        },
+        {
+            "data": "13/12/2025",
+            "local": "Lazáro",
+            "horario": "13h"
+        }
+    ],
+    "diaconos": [
+        {
+            "data": "11/01/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        },
+        {
+            "data": "08/02/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        },
+        {
+            "data": "08/03/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        },
+        {
+            "data": "12/04/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        },
+        {
+            "data": "10/05/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        },
+        {
+            "data": "14/06/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        },
+        {
+            "data": "12/07/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        },
+        {
+            "data": "09/08/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        },
+        {
+            "data": "13/09/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        },
+        {
+            "data": "11/10/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        },
+        {
+            "data": "08/11/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        },
+        {
+            "data": "13/12/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        }
+    ],
+    "rma": [
+        {
+            "data": "11/01/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        },
+        {
+            "data": "08/02/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        },
+        {
+            "data": "08/03/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        },
+        {
+            "data": "12/04/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        },
+        {
+            "data": "10/05/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        },
+        {
+            "data": "14/06/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        },
+        {
+            "data": "12/07/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        },
+        {
+            "data": "09/08/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        },
+        {
+            "data": "13/09/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        },
+        {
+            "data": "11/10/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        },
+        {
+            "data": "08/11/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        },
+        {
+            "data": "13/12/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        }
+    ],
+    "ra": [
+        {
+            "data": "10/01/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "07/02/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "07/03/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "11/04/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "09/05/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "13/06/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "11/07/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "08/08/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "12/09/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "10/10/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "07/11/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "12/12/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        }
+    ],
+    "manutencao": [
+        {
+            "data": "01/01/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "06/02/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "06/03/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "03/04/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "01/05/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "05/06/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "03/07/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "07/08/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "04/09/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "02/10/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "06/11/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "04/12/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        }
+    ],
+    "rrm": [
+        {
+            "data": "15/02/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "19/04/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "21/06/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "16/08/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "18/10/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        },
+        {
+            "data": "20/12/2025",
+            "local": "Lazáro",
+            "horario": "19h"
+        }
+    ]
+}

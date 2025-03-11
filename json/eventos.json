@@ -1,0 +1,78 @@
+{
+    "mocidade" : [
+        {
+            "data": "16/03/2025 - Domingo",
+            "local": "Praia do Lázaro",
+            "horario": "14:30"
+        },
+        {
+            "data": "27/04/2025 - Domingo",
+            "local": "Pereque Mirim",
+            "horario": "14:30"
+        }, 
+        {
+            "data": "22/06/2025 - Domingo",
+            "local": "Centro",
+            "horario": "14:30"
+        },
+        {
+            "data": "17/08/2025 - Domingo",
+            "local": "Sertão da Quina",
+            "horario": "14:30"
+        },
+        {
+            "data": "26/10/2025 - Domingo",
+            "local": "Marafunda",
+            "horario": "14:30"
+        }
+    ],
+    "conselho" : [
+        {
+            "data": "04/03/2025 - Terça",
+            "local": "Centro",
+            "horario": "10:00"
+        },
+        {
+            "data": "01/05/2025 - Quinta",
+            "local": "Praia do Lázaro",
+            "horario": "10:00"
+        },
+        {
+            "data": "31/08/2025 - Domingo",
+            "local": "Centro",
+            "horario": "14:00"
+        },
+        {
+            "data": "20/11/2025 - Quinta",
+            "local": "Praia do Lázaro",
+            "horario": "10:00"
+        }
+    ],
+    "jovens" : [
+        {
+            "data": "22/03/2025 - Sabádo",
+            "local": "Sertão da Quina",
+            "horario": "19:30"
+        },
+        {
+            "data": "10/05/2025 - Sabádo",
+            "local": "Sesmarias",
+            "horario": "19:30"
+        },
+        {
+            "data": "12/07/2025 - Sabádo",
+            "local": "Marafunda",
+            "horario": "19:30"
+        },
+        {
+            "data": "20/09/2025 - Sabádo",
+            "local": "Rio Escuro",
+            "horario": "19:30"
+        },
+        {
+            "data": "08/11/2025 - Sabádo",
+            "local": "Pereque Mirim",
+            "horario": "19:30"
+        }
+    ]
+}

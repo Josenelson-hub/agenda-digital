@@ -1,0 +1,115 @@
+{
+    "info": [
+        {
+            "igreja" : "Praia Brava",
+            "endereco" : "Estrada Vereador José Alves Barreto, 5650",
+            "horario" : "Ter: 19:30 Sex: 19:30 - Jovens Dom: 10:00"
+        },
+        {
+            "igreja" : "Centro",
+            "endereco" : "Rua Piauí, 90",
+            "horario" : "Dom: 19:30 - Qua: 19:30 -  Sex: 19:30 - Jovens Sáb: 19:30"
+        },
+        {
+            "igreja" : "Praia do Lázaro",
+            "endereco" : "Rodovia Doutor Manoel Hyppolito Rego - Km 63",
+            "horario" : "Dom: 19:30 Ter: 19:30 Sáb: 19:30 - Jovens Dom: 10:00"
+        },
+        {
+            "igreja" : "Perequê-Mirim",
+            "endereco" : "Rua João Rofino Cordeiro, 122",
+            "horario" : "Dom: 19:30 Seg: 19:30 Qui: 19:30 - Jovens Dom: 10:00"
+        },
+        {
+            "igreja" : "Corcovado",
+            "endereco" : "Travessa Quatro Direita, 19",
+            "horario" : "Seg: 19:30 Qui: 19:30 - Jovens Dom: 10:00"
+        },
+        {
+            "igreja" : "Sertão da Quina",
+            "endereco" : "Rua Recanto da Paz, 167",
+            "horario" : "Dom: 19:30 Qui: 19:30 - Jovens Dom: 10:00"
+        },
+        {
+            "igreja" : "Ipiranguinha",
+            "endereco" : "Rua da Floresta, 168",
+            "horario" : "Qui: 19:30 Sáb: 19:30 - Jovens Dom: 10:00"
+        },
+        {
+            "igreja" : "Rio Escuro",
+            "endereco" : "Rua Uirapuru, 5",
+            "horario" : "Seg: 19:30 Sex: 19:30 - Jovens Dom: 10:00"
+        },
+        {
+            "igreja" : "Ubatumirim",
+            "endereco" : "Rua do Monjolo, s/n",
+            "horario" : "Seg: 19:30 Sex: 19:30 - Jovens Dom: 10:00"
+        },
+        {
+            "igreja" : "Lagoinha",
+            "endereco" : "Rua Palmares,21",
+            "horario" : "Dom: 19:30 Qua: 19:30 - Jovens Dom: 10:00"
+        },
+        {
+            "igreja" : "Tabatinga",
+            "endereco" : "Rua da Sudelpa, 67",
+            "horario" : "Seg: 19:30 Sáb: 19:30 - Jovens Dom: 15:00"
+        },
+        {
+            "igreja" : "Araribá",
+            "endereco" : "Estrada do Araribá, 1135",
+            "horario" : "Ter: 19:30 Sáb: 19:30 - Jovens Dom: 15:00"
+        },
+        {
+            "igreja" : "Folha Seca",
+            "endereco" : "Rua Salvador Carlos, 44",
+            "horario" : "Dom: 19:30 Qua: 19:30 - Jovens Dom: 10:00"
+        },
+        {
+            "igreja" : "Perequê-Açu",
+            "endereco" : "Rua Praia da Almada, 449",
+            "horario" : "Seg: 19:30 Qui: 19:30 - Jovens Dom: 10:00"
+        },
+        {
+            "igreja" : "Marafunda",
+            "endereco" : "Rua Sebastião Camargo, 180",
+            "horario" : "Ter: 19:30 Sex: 19:30 - Jovens Dom: 10:00"
+        },
+        {
+            "igreja" : "Sesmaria",
+            "endereco" : "Rua Brasília, 1437",
+            "horario" : "Seg: 19:30 Qui: 19:30 - Jovens Dom: 10:00"
+        },
+        {
+            "igreja" : "Horto Florestal",
+            "endereco" : "Rodovia Oswaldo Cruz, 6334",
+            "horario" : "Ter: 19:30 Sáb: 19:30 - Jovens Dom: 10:00"
+        },
+        {
+            "igreja" : "Monte Valério",
+            "endereco" : "Estrada do Monte Valério, 2875",
+            "horario" : "Seg: 19:30 Sáb: 19:30"
+        },
+        {
+            "igreja" : "Toninhas",
+            "endereco" : "Rua América, 308",
+            "horario" : "Qua: 19:30 Sex: 19:30 - Jovens Dom: 10:00"
+        },
+        {
+            "igreja" : "Sapê",
+            "endereco" : "Rua Nove, 60",
+            "horario" : "Ter: 19:30 Sex: 19:30 - Jovens Dom: 10:00"
+        },
+        {
+            "igreja" : "Cachoeira dos Macacos",
+            "endereco" : "Não definido",
+            "horario" : "Não definido"
+        },
+        {
+            "igreja" : "Casanga",
+            "endereco" : "Rua Manoel Soares da Silva, 3547",
+            "horario" : "Dom: 15:00"
+        }
+    ]
+  
+}

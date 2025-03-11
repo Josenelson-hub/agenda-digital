@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body, h2, ul, li {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@keyframes example {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.init {
+  display: none;
+}
+
+.header {
+  background-color: #cdd4dc;
+  top: 0;
+  width: 100%;
+  display: flex;
+  padding: 0 0 10px 0;
+  flex-direction: row;
+  position: fixed;
+  justify-content: space-between;
+  align-items: baseline;
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.24);
+}
+
+.titulo {
+  margin-right: 40px;
+  margin-top: 11px;
+}
+
+.main {
+  margin-top: 70px;
+  max-height: 68.4px;
+}
+
+.list {
+  margin: 10px 0 0 20px;
+  border-bottom: solid 1px #cdd4dc;
+  animation-name: example;
+  animation-duration: 0.7s;
+}
+
+p {
+  margin-top: 4px;
+  font-size: 16px;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 30px;
+  width: 30px;
+  padding: 15px 0 0 0;
+  margin: 3px 0 0 20px;
+}
+
+.listagem {
+  margin: 80px 0 0 0;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.item-lista {
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  margin: 0 10px 0 10px;
+  background-color: #cdd4dc;
+  border-radius: 5px;
+}/*# sourceMappingURL=style.css.map */

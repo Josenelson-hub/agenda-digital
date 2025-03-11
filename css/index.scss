@@ -1,0 +1,101 @@
+// Definindo variáveis (opcional, mas ajuda a manter o código organizado)
+$background-color: #cdd4dc;
+$box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.24);
+$font-family: Arial, Helvetica, sans-serif;
+$font-size-img: 50px;
+$font-size-item: 32%;
+$footer-margin-top: 18%;
+$gap: 9px;
+$main-margin-top: 30px;
+
+// Resetando margin e padding
+* {
+  box-sizing: border-box;
+}
+
+body, h2, ul, li {
+  padding: 0;
+  margin: 0;
+  font-family: $font-family;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+// Header
+.header {
+  background-color: $background-color;
+  top: 0;
+  width: 100%;
+  display: flex;
+  padding: 12px 0 10px 0;
+  flex-direction: row;
+  justify-content: space-around;
+  box-shadow: $box-shadow;
+
+    // Titulo
+    .titulo {
+      text-align: center;
+    }
+}
+
+// Main
+.main {
+  display: flex;
+  justify-content: center;
+
+  .center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: $main-margin-top;
+    gap: $gap;
+    width: 80%;
+
+      // Item
+      .item {
+        margin: 20px;
+        width: $font-size-item;
+        height: 75px;
+        text-align: center;
+        padding: 0;
+
+        &:hover {
+          box-shadow: $box-shadow;
+        }
+      }
+  }
+}
+
+// Imagem
+img {
+  object-fit: cover;
+  height: $font-size-img;
+  width: $font-size-img;
+  top: 0;
+}
+
+// Logo
+.logo {
+  width: 60%;
+  height: 120px;
+  object-fit: cover;
+}
+
+// Footer
+footer {
+  text-align: center;
+  align-items: center;
+  margin-top: $footer-margin-top;
+  display: flex;
+  flex-direction: column;
+  gap: 130px;
+}
