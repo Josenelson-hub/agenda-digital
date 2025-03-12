@@ -14,68 +14,75 @@ ul {
 
 a {
   text-decoration: none;
-  color: black;
 }
 
-.header {
-  background-color: #cdd4dc;
-  top: 0;
-  width: 100%;
-  display: flex;
-  padding: 12px 0 10px 0;
-  flex-direction: row;
-  justify-content: space-around;
-  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.24);
+.space {
+  margin-top: 70px;
 }
-.header .titulo {
-  text-align: center;
-}
-
-.main {
+.space .main {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 20px 0 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  padding: 20px 0 20px 0;
+  border-radius: 10px;
 }
-.main .center {
+.space .main .logo {
+  width: 90%;
+  height: 152px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.space .main .center {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   margin-top: 30px;
-  gap: 9px;
-  width: 80%;
+  gap: 20px;
+  width: 100%;
+  margin-top: 80px;
 }
-.main .center .item {
-  margin: 20px;
-  width: 32%;
-  height: 75px;
+.space .main .center .alinhamento {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.space .main .center .alinhamento .item {
+  width: 100px;
+  height: 90px;
   text-align: center;
-  padding: 0;
+  padding: 10px;
+  background-color: #cdd4dc;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
-.main .center .item:hover {
-  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.24);
-}
-
-img {
+.space .main .center .alinhamento .item img {
   -o-object-fit: cover;
      object-fit: cover;
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   top: 0;
 }
-
-.logo {
-  width: 60%;
-  height: 120px;
-  -o-object-fit: cover;
-     object-fit: cover;
+.space .main .center .alinhamento .item:hover {
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.24);
+}
+.space .main .center .alinhamento .texto {
+  background-color: #b6bbc2;
+  padding: 5px 0 5px 0;
+  width: 100px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  text-align: center;
 }
 
 footer {
   text-align: center;
   align-items: center;
-  margin-top: 18%;
-  display: flex;
-  flex-direction: column;
-  gap: 130px;
+  margin-top: 220px;
 }/*# sourceMappingURL=index.css.map */
