@@ -40,7 +40,8 @@ a {
     // Logo
     .logo {
       width: 90%;
-      height: 152px;
+      min-width: none;
+      height: 160px;
       object-fit: cover;
     }
 
@@ -69,8 +70,8 @@ a {
             text-align: center;
             padding: 15px 10px;
             background-color: #cdd4dc;
-            border-top-left-radius: 8px;
-            border-top-right-radius: 8px;
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
 
             // Imagem
             img {
@@ -88,8 +89,8 @@ a {
           background-color: #b6bbc2;
           padding: 5px 0 5px 0;
           width: 100px;
-          border-bottom-left-radius: 8px;
-          border-bottom-right-radius: 8px;
+          border-bottom-left-radius: 3px;
+          border-bottom-right-radius: 3px;
           text-align: center;
         }
       }
@@ -102,4 +103,86 @@ footer {
   text-align: center;
   align-items: center;
   margin-top: 220px;
+}
+
+@media (min-width: 440px) {
+  .space {
+display: flex;
+justify-content: center;
+margin-top: 20px;
+  
+    // Main
+    .main {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+      border-radius: 3px;
+      width: 70%;
+      margin: 0;
+      padding: 0 0 20px 0;
+  
+      // Logo
+      .logo {
+        width: 50%;
+        max-width: 230px;
+        min-width: 110px;
+        height: 120px;
+        max-height: 120px;
+        object-fit: cover;
+      }
+  
+      .center {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 20px 0 0 0;
+
+        .alinhamento {
+          display: flex;
+              flex-direction: column;
+              align-content: center;
+              justify-content: center;
+              align-items: center;
+
+            // Item
+            .item {
+              width: 70px;
+              height: 50px;
+              text-align: center;
+              background-color: #cdd4dc;
+              border-top-left-radius: 3px;
+              border-top-right-radius: 3px;
+              padding: 0;
+              margin: 0px 10px 0 10px;
+
+              // Imagem
+              img {
+                object-fit: cover;
+                height: 30px;
+                width: 30px;
+                top: 0;
+                margin-top: 10px;
+              }
+              &:hover {
+                box-shadow: $box-shadow;
+              }
+          }
+
+          .texto {
+            background-color: #b6bbc2;
+            padding: 5px 0 5px 0;
+            width: 70px;
+            border-bottom-left-radius: 3px;
+            border-bottom-right-radius: 3px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
 }
