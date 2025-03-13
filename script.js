@@ -75,11 +75,11 @@ const fetchAndDisplayData = (url, submenuSelector, menuSelector, key) => {
 };
 
 const initEventListeners = () => {
-    // Reuniões de Eventos
-    if (window.location.href.includes('eventos')) {
-        fetchAndDisplayData('json/eventos.json', '.mocidade', '#mocidade', 'mocidade');
-        fetchAndDisplayData('json/eventos.json', '.jovens', '#jovens', 'mocidade');
-        fetchAndDisplayData('json/eventos.json', '.conselho', '#conselho', 'mocidade');
+    // Reuniões de mocidade
+    if (window.location.href.includes('mocidade')) {
+        fetchAndDisplayData('json/mocidade.json', '.mocidade', '#mocidade', 'mocidade');
+        fetchAndDisplayData('json/mocidade.json', '.jovens', '#jovens', 'mocidade');
+        fetchAndDisplayData('json/mocidade.json', '.conselho', '#conselho', 'mocidade');
     }
 
     // Reuniões
