@@ -151,7 +151,7 @@ submitBtn.onclick = async function() {
 
     } else if (password.value === '') {
         alert('Insira a senha')
-    } else if(password.value !== correctPassword) {
+    } else {
         alert('Senha incorreta')
     }
 }
