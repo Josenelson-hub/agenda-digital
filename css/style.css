@@ -80,6 +80,7 @@ img {
   display: flex;
   gap: 5px;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .item-lista {

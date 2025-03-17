@@ -27,7 +27,7 @@ a {
   margin: 20px 20px 0 20px;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   padding: 20px 0 20px 0;
-  border-radius: 10px;
+  border-radius: 3px;
 }
 .space .main .logo {
   width: 90%;
@@ -139,6 +139,7 @@ footer {
     border-top-right-radius: 3px;
     padding: 0;
     margin: 0px 10px 0 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   }
   .space .main .center .alinhamento .item img {
     -o-object-fit: cover;
