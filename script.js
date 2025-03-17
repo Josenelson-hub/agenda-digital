@@ -107,51 +107,43 @@ const initEventListeners = () => {
 
 document.addEventListener('DOMContentLoaded', initEventListeners);
 
-
-// Abrir o modal ao clicar no link "Contatos"
-const openModalLink = document.getElementById('openModalLink'); // A referência ao link "Contatos"
+const openModalLink = document.getElementById('openModalLink');
 const modal = document.getElementById('modal');
 const submitBtn = document.getElementById('submitBtn');
 
-// Abrir o modal ao clicar no link "Contatos"
-openModalLink.onclick = function(event) {
-    event.preventDefault();  // Previne o comportamento de navegação do link
-    modal.style.display = 'flex';
+if (window.location.href.includes('index')) {
+    function openModal(event) {
+        event.preventDefault();
+        modal.style.display = 'flex';
+    }
+    openModalLink.addEventListener('click', openModal)
 }
 
-// Fechar o modal clicando fora dele
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = 'none';
     }
 }
 
-// Função para obter a senha correta de forma assíncrona
 async function getCorrectPassword() {
     const res = await fetch('json/senha.json');
     const data = await res.json();
     return data.senha[0].senha;
 }
 
-// Lógica do botão de envio
-submitBtn.onclick = async function() {
-    const password = document.getElementById('passwordInput');
-    
-    // Obtém a senha correta de forma assíncrona
-    const correctPassword = await getCorrectPassword();
-    const error = document.getElementsByClassName('error');
-    // Verifica se a senha inserida é correta
-    if (password.value === correctPassword) {
+if (window.location.href.includes('index')) {
+    submitBtn.onclick = async function() {
+        const password = document.getElementById('passwordInput');
+        const correctPassword = await getCorrectPassword();
 
-        const aTag = document.createElement('a');
-        aTag.href = 'contatos.html';  // Define o link
-        aTag.textContent = 'Acessar';  // Define o texto do link
-        aTag.classList.add('custom-link');
-        submitBtn.replaceWith(aTag);
-
-    } else if (password.value === '') {
-        alert('Insira a senha')
-    } else {
-        alert('Senha incorreta')
-    }
+        if (password.value === correctPassword) {
+            const aTag = document.createElement('a');
+            aTag.href = 'contatos.html';
+            aTag.textContent = 'Acessar';
+            aTag.classList.add('custom-link');
+            submitBtn.replaceWith(aTag);
+        } 
+        else if (password.value === '') alert('Insira a senha')
+        else if (password.value != correctPassword) alert('Senha incorreta')
+        }
 }
