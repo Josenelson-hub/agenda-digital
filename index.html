@@ -11,8 +11,8 @@
         <main class="main">
             <img class="logo" src="img/ccb.png" alt="">
             <div class="center">
-                <div class="alinhamento"> 
-                    <a class="item" href="contatos.html"><img src="img/contato.png" alt=""></a><div class="texto">Contatos</div>
+                <div class="alinhamento" id="openModalLink"> 
+                    <a class="item"><img src="img/contato.png" alt=""></a><div class="texto">Contatos</div>
                 </div>
                 <div class="alinhamento"> 
                     <a class="item" href="cultos.html"><img src="img/cultos.png" alt=""></a><div class="texto">Cultos</div>
@@ -31,6 +31,14 @@
                 </div>
             </div>
         </main>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <h2 class="error">Digite a Senha</h2>
+                <input type="password" id="passwordInput" placeholder="*******">
+                <button id="submitBtn">Enviar</button>
+            </div>
+        </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
