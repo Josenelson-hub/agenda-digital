@@ -90,8 +90,8 @@ const initEventListeners = () => {
         fetchAndDisplayData('json/reunioes.json', '.RRM', '#RRM', 'rrm');
         fetchAndDisplayData('json/reunioes.json', '.anciaes', '#anciaes', 'anciaes');
         fetchAndDisplayData('json/reunioes.json', '.diacono', '#diacono', 'diaconos');
-        fetchAndDisplayData('json/reunioes.json', '.manutencao', '#manutencao', 'manutencao');
         fetchAndDisplayData('json/reunioes.json', '.piedade', '#piedade', 'piedade');
+        fetchAndDisplayData('json/reunioes.json', '.coleta', '#coleta', 'coleta');
     }
 
     // Contatos
