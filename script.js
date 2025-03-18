@@ -143,7 +143,12 @@ if (window.location.href.includes('index')) {
             aTag.classList.add('custom-link');
             submitBtn.replaceWith(aTag);
         } 
-        else if (password.value === '') alert('Insira a senha')
-        else if (password.value != correctPassword) alert('Senha incorreta')
+        else if (password.value === ''){
+            alert('Insira a senha')
+        } 
+        else if (password.value != correctPassword) {
+            alert('Senha incorreta')
+            password.value = ''
+        }
         }
 }
