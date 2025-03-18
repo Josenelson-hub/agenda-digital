@@ -185,6 +185,8 @@ margin-top: 20px;
         }
       }
     }
+  }
+}
     #modal {
       display: none;
       position: fixed;
@@ -196,7 +198,7 @@ margin-top: 20px;
       background-color: rgba(0, 0, 0, 0.4); /* Fundo semi-transparente */
       justify-content: center;
       align-items: center;
-
+    }
       .modal-content {
         background-color: #fff;
         padding: 20px;
@@ -204,7 +206,7 @@ margin-top: 20px;
         width: 300px;
         text-align: center;
         border-radius: 3px;
-
+      }
         input {
           width: 100%;
           padding: 10px;
@@ -230,8 +232,3 @@ margin-top: 20px;
           display: inline-block;
           color: white;
         }
-      }
-    }
-  }
-}
-
