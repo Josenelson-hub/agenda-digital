@@ -78,8 +78,8 @@ const initEventListeners = () => {
     // Reuniões de mocidade
     if (window.location.href.includes('mocidade')) {
         fetchAndDisplayData('json/mocidade.json', '.mocidade', '#mocidade', 'mocidade');
-        fetchAndDisplayData('json/mocidade.json', '.jovens', '#jovens', 'mocidade');
-        fetchAndDisplayData('json/mocidade.json', '.conselho', '#conselho', 'mocidade');
+        fetchAndDisplayData('json/mocidade.json', '.jovens', '#jovens', 'jovens');
+        fetchAndDisplayData('json/mocidade.json', '.conselho', '#conselho', 'conselho');
     }
 
     // Reuniões
