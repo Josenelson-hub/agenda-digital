@@ -54,7 +54,7 @@ const fetchAndDisplayData = (url, submenuSelector, menuSelector, key) => {
                     h2.textContent = item.local;
 
                     let p = document.createElement('p');
-                    p.textContent = item.data ? item.data + ' - ' + item.horario : item.nome + ' - ' + (item.numero ? item.numero.replace('5512', '(12) ') : item.fixo);
+                    p.textContent = item.data ? item.data + ' - ' + item.horario : item.nome + ' - ' +  (item.setor ? item.setor  + ' - ' : '') + (item.numero ? item.numero.replace('5512', '(12) ') : item.fixo);
 
                     if(window.location.href.includes('contatos')){
                         let link = document.createElement('a');
@@ -92,6 +92,7 @@ const initEventListeners = () => {
         fetchAndDisplayData('json/reunioes.json', '.diacono', '#diacono', 'diaconos');
         fetchAndDisplayData('json/reunioes.json', '.piedade', '#piedade', 'piedade');
         fetchAndDisplayData('json/reunioes.json', '.coleta', '#coleta', 'coleta');
+        fetchAndDisplayData('json/reunioes.json', '.RRA', '#RRA', 'rra');
     }
 
     // Contatos

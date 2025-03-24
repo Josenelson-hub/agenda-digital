@@ -430,7 +430,7 @@
             "horario": "19:30h"
         },
         {
-            "data": "105/07/2025",
+            "data": "05/07/2025",
             "local": "Lazáro",
             "horario": "19:30h"
         },
@@ -463,6 +463,28 @@
             "data": "04/12/2025",
             "local": "Lazáro",
             "horario": "19:30h"
+        }
+    ],
+    "rra": [
+        {
+            "data": "29/03/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        },
+        {
+            "data": "31/05/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        },
+        {
+            "data": "30/08/2025",
+            "local": "Lazáro",
+            "horario": "14h"
+        },
+        {
+            "data": "29/11/2025",
+            "local": "Lazáro",
+            "horario": "14h"
         }
     ]
 }
