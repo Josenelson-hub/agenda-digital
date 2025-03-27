@@ -88,11 +88,11 @@ const initEventListeners = () => {
         fetchAndDisplayData('json/reunioes.json', '.RMA', '#RMA', 'rma');
         fetchAndDisplayData('json/reunioes.json', '.RML', '#RML', 'rml');
         fetchAndDisplayData('json/reunioes.json', '.RRM', '#RRM', 'rrm');
+        fetchAndDisplayData('json/reunioes.json', '.RRA', '#RRA', 'rra');
         fetchAndDisplayData('json/reunioes.json', '.anciaes', '#anciaes', 'anciaes');
         fetchAndDisplayData('json/reunioes.json', '.diacono', '#diacono', 'diaconos');
         fetchAndDisplayData('json/reunioes.json', '.piedade', '#piedade', 'piedade');
         fetchAndDisplayData('json/reunioes.json', '.coleta', '#coleta', 'coleta');
-        fetchAndDisplayData('json/reunioes.json', '.RRA', '#RRA', 'rra');
     }
 
     // Contatos
@@ -103,6 +103,7 @@ const initEventListeners = () => {
         fetchAndDisplayData('json/contato.json', '.jovens', '#jovens', 'jovens');
         fetchAndDisplayData('json/contato.json', '.adm', '#adm', 'adm');
         fetchAndDisplayData('json/contato.json', '.musica', '#musica', 'musica');
+        fetchAndDisplayData('json/contato.json', '.fiscal', '#fiscal', 'fiscal');
     }
 };
 
