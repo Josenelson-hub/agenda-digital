@@ -34,11 +34,6 @@
             "nome": "Manoel Gilberto P. F.",
             "comum": "Lázaro",
             "numero": "5512997664039"
-        },
-                {
-            "nome": "Antonio Nn.B. Coimbra",
-            "comum": "Pereque Açu",
-            "numero": "5512997936228"
         }
     ],
     "diaconos": [
@@ -163,6 +158,11 @@
             "nome": "Patrik Costa Barreto",
             "comum": "Praia Brava",
             "numero": "551299663918"
+        },
+        {
+            "nome": "Antonio Nn.B. Coimbra",
+            "comum": "Pereque Açu",
+            "numero": "5512997936228"
         },
         {
             "nome": "Mario Lelis Mattos",
