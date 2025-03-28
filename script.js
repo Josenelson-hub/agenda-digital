@@ -62,7 +62,7 @@ const fetchAndDisplayData = (url, submenuSelector, menuSelector, key) => {
                     h2.textContent = item.local;
 
                     let p = document.createElement('p');
-                    p.textContent = item.data ? item.data + ' - ' + item.horario : item.nome + ' - ' +  (item.setor ? item.setor  + ' - ' : '') + (item.numero ? item.numero.replace('5512', '(12) ') : item.fixo);
+                    p.textContent = item.data ? item.data + ' - ' + item.horario : item.nome + ' - ' + (item.comum ? item.comum  + ' - ' : '') +  (item.setor ? item.setor  + ' - ' : '') + (item.numero ? item.numero.replace('5512', '(12) ') : item.fixo);
 
                     if(window.location.href.includes('contatos')){
                         let link = document.createElement('a');
