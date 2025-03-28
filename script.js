@@ -19,10 +19,18 @@ const renderData = (url, key, label1, label2) => {
                     let p = document.createElement('p');
                     p.textContent = item[label2];
 
-                    div.appendChild(h2);
-                    div.appendChild(p);
-
-                    main.appendChild(div);
+                    if(window.location.href.includes('igrejas')){
+                        let link = document.createElement('a');
+                        link.href = item.url;
+                        div.appendChild(h2);
+                        div.appendChild(p);
+                        link.appendChild(div);
+                        main.appendChild(link);
+                    } else {
+                        div.appendChild(h2);
+                        div.appendChild(p);
+                        main.appendChild(div);
+                    }
                 });
             })
             .catch(error => console.error('Erro ao carregar os dados:', error));
