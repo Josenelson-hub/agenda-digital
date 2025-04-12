@@ -1,78 +1,78 @@
 {
     "mocidade" : [
         {
-            "data": "16/03/2025 - Domingo",
+            "data": "16/03/2025",
             "local": "Praia do Lázaro",
-            "horario": "14:30"
+            "horario": "14:30h"
         },
         {
-            "data": "27/04/2025 - Domingo",
+            "data": "27/04/2025",
             "local": "Pereque Mirim",
-            "horario": "14:30"
+            "horario": "14:30h"
         }, 
         {
-            "data": "22/06/2025 - Domingo",
+            "data": "22/06/2025",
             "local": "Centro",
-            "horario": "14:30"
+            "horario": "14:30h"
         },
         {
-            "data": "17/08/2025 - Domingo",
+            "data": "17/08/2025",
             "local": "Sertão da Quina",
-            "horario": "14:30"
+            "horario": "14:30h"
         },
         {
-            "data": "26/10/2025 - Domingo",
+            "data": "26/10/2025",
             "local": "Marafunda",
-            "horario": "14:30"
+            "horario": "14:30h"
         }
     ],
     "conselho" : [
         {
-            "data": "04/03/2025 - Terça",
+            "data": "04/03/2025",
             "local": "Centro",
-            "horario": "10:00"
+            "horario": "10:00h"
         },
         {
-            "data": "01/05/2025 - Quinta",
+            "data": "01/05/2025",
             "local": "Praia do Lázaro",
-            "horario": "10:00"
+            "horario": "10:00h"
         },
         {
-            "data": "31/08/2025 - Domingo",
+            "data": "31/08/2025",
             "local": "Centro",
-            "horario": "14:00"
+            "horario": "14:00h"
         },
         {
-            "data": "20/11/2025 - Quinta",
+            "data": "20/11/2025",
             "local": "Praia do Lázaro",
-            "horario": "10:00"
+            "horario": "10:00h"
         }
     ],
     "jovens" : [
         {
-            "data": "22/03/2025 - Sabádo",
+            "data": "22/03/2025",
             "local": "Sertão da Quina",
-            "horario": "19:30"
+            "horario": "19:30h"
         },
         {
-            "data": "10/05/2025 - Sabádo",
+            "data": "10/05/2025",
             "local": "Sesmarias",
-            "horario": "19:30"
+            "horario": "19:30h"
         },
         {
-            "data": "12/07/2025 - Sabádo",
+            "data": "12/07/2025",
             "local": "Marafunda",
-            "horario": "19:30"
+            "horario": "19:30h"
         },
         {
-            "data": "20/09/2025 - Sabádo",
+            "data": "20/09/2025",
             "local": "Rio Escuro",
-            "horario": "19:30"
+            "horario": "19:30h"
         },
         {
-            "data": "08/11/2025 - Sabádo",
+            "data": "08/11/2025",
             "local": "Pereque Mirim",
-            "horario": "19:30"
+            "horario": "19:30h"
         }
     ]
 }

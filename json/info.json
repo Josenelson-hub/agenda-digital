@@ -4,133 +4,133 @@
             "igreja" : "Praia Brava",
             "endereco" : "Estrada Vereador José Alves Barreto, 5650",
             "url": "https://maps.app.goo.gl/VzLy5FrG7fHUrqWm8",
-            "horario" : "Ter: 19:30 Sex: 19:30 - Jovens Dom: 10:00"
+            "horario" : "Oficial: Ter - Sex: 19:30 -- Jovens: - Dom: 10:00"
         },
         {
             "igreja" : "Centro",
             "endereco" : "Rua Piauí, 90",
             "url": "https://maps.app.goo.gl/fefWdE5VzxVbZqU78",
-            "horario" : "Dom: 19:30 - Qua: 19:30 -  Sex: 19:30 - Jovens Sáb: 19:30"
+            "horario" : "Oficial: Dom - Sex - Qua: 19:30 -- Jovens: Sáb: 19:30"
         },
         {
             "igreja" : "Praia do Lázaro",
             "endereco" : "Rodovia Doutor Manoel Hyppolito Rego - Km 63",
             "url": "https://maps.app.goo.gl/b9f3GGcF5eUewbua6",
-            "horario" : "Dom: 19:30 Ter: 19:30 Sáb: 19:30 - Jovens Dom: 10:00"
+            "horario" : "Oficial: Dom - Ter - Sáb: 19:30 -- Jovens: Dom: 10:00"
         },
         {
             "igreja" : "Perequê-Mirim",
             "endereco" : "Rua João Rofino Cordeiro, 122",
             "url": "https://maps.app.goo.gl/z3xfQHCCJh1rXkPZ8",
-            "horario" : "Dom: 19:30 Seg: 19:30 Qui: 19:30 - Jovens Dom: 10:00"
+            "horario" : "Oficial: Dom - Seg - Qui: 19:30 -- Jovens: Dom: 10:00"
         },
         {
             "igreja" : "Corcovado",
             "endereco" : "Travessa Quatro Direita, 19",
             "url": "",
-            "horario" : "Seg: 19:30 Qui: 19:30 - Jovens Dom: 10:00"
+            "horario" : "Oficial: Seg - Qui: 19:30 -- Jovens: Dom: 10:00"
         },
         {
             "igreja" : "Sertão da Quina",
             "endereco" : "Rua Recanto da Paz, 167",
             "url": "https://maps.app.goo.gl/yiUjTCohXEyksuJS9",
-            "horario" : "Dom: 19:30 Qui: 19:30 - Jovens Dom: 10:00"
+            "horario" : "Oficial: Dom - Qui: 19:30 -- Jovens: Dom: 10:00"
         },
         {
             "igreja" : "Ipiranguinha",
             "endereco" : "Rua da Floresta, 168",
             "url": "https://maps.app.goo.gl/TAfciVi6bcXqtH138",
-            "horario" : "Qui: 19:30 Sáb: 19:30 - Jovens Dom: 10:00"
+            "horario" : "Oficial: Qui - Sáb: 19:30 -- Jovens: Dom: 10:00"
         },
         {
             "igreja" : "Rio Escuro",
             "endereco" : "Rua Uirapuru, 5",
             "url": "https://maps.app.goo.gl/Az6TCKof49fREsGu6",
-            "horario" : "Seg: 19:30 Sex: 19:30 - Jovens Dom: 10:00"
+            "horario" : "Oficial: Seg - Sex: 19:30 -- Jovens: Dom: 10:00"
         },
         {
             "igreja" : "Ubatumirim",
             "endereco" : "Rua do Monjolo, s/n",
             "url": "",
-            "horario" : "Seg: 19:30 Sex: 19:30 - Jovens Dom: 10:00"
+            "horario" : "Oficial: Seg - Sex: 19:30 -- Jovens: Dom: 10:00"
         },
         {
             "igreja" : "Lagoinha",
             "endereco" : "Rua Palmares,21",
             "url": "https://maps.app.goo.gl/DE5tGhct37X7W2ev8",
-            "horario" : "Dom: 19:30 Qua: 19:30 - Jovens Dom: 10:00"
+            "horario" : "Oficial: Dom - Qua: 19:30 -- Jovens: Dom: 10:00"
         },
         {
             "igreja" : "Tabatinga",
             "endereco" : "Rua da Sudelpa, 67",
-            "url": "",
-            "horario" : "Seg: 19:30 Sáb: 19:30 - Jovens Dom: 15:00"
+            "url": "https://maps.app.goo.gl/hDxjxmxfq3MKfEWcA?g_st=aw",
+            "horario" : "Oficial: Seg - Sáb: 19:30 -- Jovens: Dom: 15:00"
         },
         {
             "igreja" : "Araribá",
             "endereco" : "Estrada do Araribá, 1135",
             "url": "https://maps.app.goo.gl/TTZhSjweLkzpNzdXA",
-            "horario" : "Ter: 19:30 Sáb: 19:30 - Jovens Dom: 15:00"
+            "horario" : "Oficial: Ter - Sáb: 19:30 -- Jovens: Dom: 15:00"
         },
         {
             "igreja" : "Folha Seca",
             "endereco" : "Rua Salvador Carlos, 44",
             "url": "https://maps.app.goo.gl/69NG4KGE26tFMoHN8",
-            "horario" : "Dom: 19:30 Qua: 19:30 - Jovens Dom: 10:00"
+            "horario" : "Oficial: Dom - Qua: 19:30 -- Jovens: Dom: 10:00"
         },
         {
             "igreja" : "Perequê-Açu",
             "endereco" : "Rua Praia da Almada, 449",
             "url": "https://maps.app.goo.gl/rVyZ6a3V2qZk3kJ47",
-            "horario" : "Seg: 19:30 Qui: 19:30 - Jovens Dom: 10:00"
+            "horario" : "Oficial: Seg - Qui: 19:30 -- Jovens: Dom: 10:00"
         },
         {
             "igreja" : "Marafunda",
             "endereco" : "Rua Sebastião Camargo, 180",
             "url": "https://maps.app.goo.gl/Dkj13cCGAM45WPGK7",
-            "horario" : "Ter: 19:30 Sex: 19:30 - Jovens Dom: 10:00"
+            "horario" : "Oficial: Ter -  Sex: 19:30 -- Jovens: Dom: 10:00"
         },
         {
             "igreja" : "Sesmaria",
             "endereco" : "Rua Brasília, 1437",
-            "url": "",
-            "horario" : "Seg: 19:30 Qui: 19:30 - Jovens Dom: 10:00"
+            "url": "https://maps.app.goo.gl/AJLkwvTTWs48cSi87",
+            "horario" : "Oficial: Seg - Qui: 19:30 -- Jovens: Dom: 10:00"
         },
         {
             "igreja" : "Horto Florestal",
             "endereco" : "Rodovia Oswaldo Cruz, 6334",
             "url": "https://maps.app.goo.gl/VCt3xWLp2zpg8Kq26",
-            "horario" : "Ter: 19:30 Sáb: 19:30 - Jovens Dom: 10:00"
+            "horario" : "Oficial: Ter - Sáb: 19:30 -- Jovens: Dom: 10:00"
         },
         {
             "igreja" : "Monte Valério",
             "endereco" : "Estrada do Monte Valério, 2875",
             "url": "https://maps.app.goo.gl/Qe56Y3DnWzHSD1sQ6",
-            "horario" : "Seg: 19:30 Sáb: 19:30"
+            "horario" : "Oficial: Seg - Sáb: 19:30"
         },
         {
             "igreja" : "Toninhas",
             "endereco" : "Rua América, 308",
             "url": "https://maps.app.goo.gl/H8RmCcwv4zHDwKNG6",
-            "horario" : "Qua: 19:30 Sex: 19:30 - Jovens Dom: 10:00"
+            "horario" : "Oficial: Qua - Sex: 19:30 -- Jovens: Dom: 10:00"
         },
         {
             "igreja" : "Sapê",
             "endereco" : "Rua Nove, 60",
             "url": "https://maps.app.goo.gl/GcLrVAcQSVjzs9fZA",
-            "horario" : "Ter: 19:30 Sex: 19:30 - Jovens Dom: 10:00"
+            "horario" : "Oficial: Ter - Sex: 19:30 -- Jovens: Dom: 10:00"
         },
         {
             "igreja" : "Cachoeira dos Macacos",
             "endereco" : "Não definido",
             "url": "",
-            "horario" : "Não definido"
+            "horario" : "Oficial: Não definido"
         },
         {
             "igreja" : "Casanga",
             "endereco" : "Rua Manoel Soares da Silva, 3547",
             "url": "",
-            "horario" : "Dom: 15:00"
+            "horario" : "Oficial: Dom: 15:00"
         }
     ]
   

@@ -1,7 +1,7 @@
 const url = window.location.href;
 const dados = fetch('json/info.json')
 
-// Função genérica para renderizar os dados
+// Renderiza as informcoes direto.
 const renderData = (url, key, label1, label2) => {
     if (window.location.href.includes(url)) {
         let main = document.querySelector('.main');
@@ -43,6 +43,7 @@ renderData('cultos', 'info', 'igreja', 'horario');
 // Chamando a função para 'igrejas' (localização das igrejas)
 renderData('igrejas', 'info', 'igreja', 'endereco');
 
+// Exibe as informacoes ao clicar no respectivo item.
 const fetchAndDisplayData = (url, submenuSelector, menuSelector, key) => {
     fetch(url)
         .then(res => res.json())
@@ -59,12 +60,29 @@ const fetchAndDisplayData = (url, submenuSelector, menuSelector, key) => {
                     div.classList.add('list');
 
                     let h2 = document.createElement('h2');
-                    h2.textContent = item.local;
+                    h2.textContent = item.local ? item.local : item.nome;
 
                     let p = document.createElement('p');
-                    p.textContent = item.data ? item.data + ' - ' + item.horario : item.nome + ' - ' + (item.comum ? item.comum  + ' - ' : '') +  (item.setor ? item.setor  + ' - ' : '') + (item.numero ? item.numero.replace('5512', '(12) ') : item.fixo);
 
-                    if(window.location.href.includes('contatos')){
+                    // Tratamento dos contatos
+                    function cleanNumber() {
+                      return clean = item.numero ? item.numero.replace('5512', '(12) ') : item.fixo;
+                    }
+                    
+                    // Atribui conteudo ao paragrafo dos contatos
+                    if(window.location.href.includes('contatos')) {
+                        if(item.setor) p.textContent = item.setor + ' - ' + cleanNumber();
+                        else p.textContent = (item.comum ? item.comum + ' - ' : '') + cleanNumber();
+                    }
+
+                    // Atribui conteudo ao paragrafo das reunioes
+                    if(window.location.href.includes('reunioes')) p.textContent = item.data + ' - ' + item.horario;
+
+                    // Atribui conteudo ao paragrafo das reunioes
+                    if(window.location.href.includes('mocidade')) p.textContent = item.data + ' - ' + item.horario;
+
+                    // Cria as urls para os contatos
+                    if(window.location.href.includes('contatos')) {
                         let link = document.createElement('a');
                         link.href = `https://wa.me/${item.numero}`;
                             div.appendChild(h2);
