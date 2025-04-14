@@ -165,11 +165,7 @@ if (window.location.href.includes('index')) {
         const correctPassword = await getCorrectPassword();
 
         if (password.value === correctPassword) {
-            const aTag = document.createElement('a');
-            aTag.href = 'contatos.html';
-            aTag.textContent = 'Acessar';
-            aTag.classList.add('custom-link');
-            submitBtn.replaceWith(aTag);
+            window.location.href = 'https://josenelson-hub.github.io/agenda-digital/contatos.html'
         } 
         else if (password.value === ''){
             alert('Insira a senha')

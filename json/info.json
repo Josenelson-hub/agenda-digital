@@ -64,7 +64,7 @@
             "igreja" : "Tabatinga",
             "endereco" : "Rua da Sudelpa, 67",
             "url": "https://maps.app.goo.gl/hDxjxmxfq3MKfEWcA?g_st=aw",
-            "horario" : "Oficial: Seg - Sáb: 19:30 -- Jovens: Dom: 15:00"
+            "horario" : "Oficial: Seg - Sáb: 19:30"
         },
         {
             "igreja" : "Araribá",
@@ -129,7 +129,7 @@
         {
             "igreja" : "Casanga",
             "endereco" : "Rua Manoel Soares da Silva, 3547",
-            "url": "",
+            "url": "https://maps.app.goo.gl/5YA9Lbe64ixAKkEf7",
             "horario" : "Oficial: Dom: 15:00"
         }
     ]
