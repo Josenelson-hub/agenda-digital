@@ -166,9 +166,9 @@ async function getCorrectPassword() {
 
 // resultados ao colocar a senha.
 if (window.location.href.includes('index')) {
-        function submitAction() {
+    submitBtn.onclick = async function() {
         const password = document.getElementById('passwordInput');
-        const correctPassword = getCorrectPassword();
+        const correctPassword = await getCorrectPassword();
 
         if (password.value === correctPassword) {
             window.location.href = 'https://josenelson-hub.github.io/agenda-digital/contatos.html'
@@ -184,10 +184,4 @@ if (window.location.href.includes('index')) {
             password.value = ''
         }
         }
-        submitBtn.addEventListener('click', submitAction)
-        document.addEventListener('keydown', function(event) {
-            if (event.key === 'Enter') {
-                submitBtn.click();
-            }
-        });
 }
