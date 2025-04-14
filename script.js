@@ -166,22 +166,30 @@ async function getCorrectPassword() {
 
 // resultados ao colocar a senha.
 if (window.location.href.includes('index')) {
-    submitBtn.onclick = async function() {
-        const password = document.getElementById('passwordInput');
-        const correctPassword = await getCorrectPassword();
+    async function submitAction() {
+    const password =  document.getElementById('passwordInput');
+    const correctPassword = await getCorrectPassword();
 
-        if (password.value === correctPassword) {
-            window.location.href = 'https://josenelson-hub.github.io/agenda-digital/contatos.html'
-        } 
-        else if (password.value === ''){
-            error.textContent = 'Insira a senha!';
-            error.style.display = 'block';
-            password.value = ''
-        } 
-        else if (password.value != correctPassword) {
-            error.textContent = 'Senha incorreta!';
-            error.style.display = 'block';
-            password.value = ''
+    if (password.value === correctPassword) {
+        window.location.href = 'https://josenelson-hub.github.io/agenda-digital/contatos.html'
+    } 
+    else if (password.value === ''){
+        error.textContent = 'Insira a senha!';
+        error.style.display = 'block';
+        password.value = ''
+    } 
+    else if (password.value != correctPassword) {
+        error.textContent = 'Senha incorreta!';
+        error.style.display = 'block';
+        password.value = ''
+    }
+    }
+
+    function enterClick(event) {
+        if(event.key === 'Enter') {
+            submitAction()
         }
-        }
+    }
+    document.addEventListener('keydown', enterClick);
+    submitBtn.addEventListener('click', submitAction)
 }
