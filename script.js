@@ -138,7 +138,9 @@ document.addEventListener('DOMContentLoaded', initEventListeners);
 const openModalLink = document.getElementById('openModalLink');
 const modal = document.getElementById('modal');
 const submitBtn = document.getElementById('submitBtn');
+const error = document.querySelector('.error')
 
+// Abre o modal
 if (window.location.href.includes('index')) {
     function openModal(event) {
         event.preventDefault();
@@ -147,32 +149,45 @@ if (window.location.href.includes('index')) {
     openModalLink.addEventListener('click', openModal)
 }
 
+// Fecha o modal ao clicar fora do mesmo.
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = 'none';
+        error.style.display = 'none';
     }
 }
 
+// Pega a senha do json
 async function getCorrectPassword() {
     const res = await fetch('json/senha.json');
     const data = await res.json();
     return data.senha[0].senha;
 }
 
+// resultados ao colocar a senha.
 if (window.location.href.includes('index')) {
-    submitBtn.onclick = async function() {
+        function submitAction() {
         const password = document.getElementById('passwordInput');
-        const correctPassword = await getCorrectPassword();
+        const correctPassword = getCorrectPassword();
 
         if (password.value === correctPassword) {
             window.location.href = 'https://josenelson-hub.github.io/agenda-digital/contatos.html'
         } 
         else if (password.value === ''){
-            alert('Insira a senha')
+            error.textContent = 'Insira a senha!';
+            error.style.display = 'block';
+            password.value = ''
         } 
         else if (password.value != correctPassword) {
-            alert('Senha incorreta')
+            error.textContent = 'Senha incorreta!';
+            error.style.display = 'block';
             password.value = ''
         }
         }
+        submitBtn.addEventListener('click', submitAction)
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+                submitBtn.click();
+            }
+        });
 }

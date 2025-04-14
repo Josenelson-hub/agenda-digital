@@ -207,6 +207,11 @@ margin-top: 20px;
       border-radius: 5px;
       border: 1px solid #ccc;
     }
+
+    .error {
+      display: none;
+      color: red;
+    }
     
     button {
       background-color: #0056b3;
