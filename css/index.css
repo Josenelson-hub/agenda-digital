@@ -45,7 +45,7 @@ a {
   margin-top: 30px;
   gap: 20px;
   width: 100%;
-  margin-top: 80px;
+  margin-top: 40px;
 }
 .space .main .center .alinhamento {
   display: flex;
@@ -202,4 +202,15 @@ a {
   border-radius: 5px;
   display: inline-block;
   color: white;
+}
+
+#installButton {
+  background-color: #b6bbc2;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 30px;
 }/*# sourceMappingURL=index.css.map */

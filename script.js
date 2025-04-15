@@ -193,3 +193,40 @@ if (window.location.href.includes('index')) {
     document.addEventListener('keydown', enterClick);
     submitBtn.addEventListener('click', submitAction)
 }
+// pwa
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js')
+      .then(function(registration) {
+        console.log('Service Worker registrado com sucesso:', registration);
+      })
+      .catch(function(error) {
+        console.log('Falha ao registrar o Service Worker:', error);
+      });
+  }
+
+  let deferredPrompt; // Variável para armazenar o evento
+
+// Ouve o evento beforeinstallprompt
+if ('beforeinstallprompt' in window) {
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
+    const installButton = document.getElementById('installButton');
+    installButton.style.display = 'flex'; // Exibe o botão
+
+    installButton.addEventListener('click', () => {
+      deferredPrompt.prompt(); // Mostra o prompt
+      deferredPrompt.userChoice.then((choiceResult) => {
+        if (choiceResult.outcome === 'accepted') {
+          console.log('Usuário aceitou a instalação');
+        } else {
+          console.log('Usuário rejeitou a instalação');
+        }
+        deferredPrompt = null;
+      });
+    });
+  });
+} else {
+  console.log('Este navegador não suporta instalação PWA');
+}
+

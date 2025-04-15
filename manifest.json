@@ -1,0 +1,20 @@
+{
+    "short_name": "Agenda Digital",
+    "name": "Agenda Digital Ubatuba",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#3f51b5",
+    "background_color": "#cdd4dc",
+    "icons": [
+      {
+        "src": "ccb.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "ccb.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
