@@ -1,0 +1,21 @@
+{
+  "name": "Agenda Digital CCB",
+  "short_name": "Agenda Digital",
+  "description": "Uma aplicação web progressiva.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#cdd4dc",
+  "icons": [
+    {
+      "src": "img/ccb.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/ccb.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

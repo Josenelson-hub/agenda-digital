@@ -193,3 +193,45 @@ if (window.location.href.includes('index')) {
     document.addEventListener('keydown', enterClick);
     submitBtn.addEventListener('click', submitAction)
 }
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/service-worker.js')
+        .then((registration) => {
+          console.log('Service Worker registrado com sucesso: ', registration);
+        })
+        .catch((error) => {
+          console.log('Falha ao registrar o Service Worker: ', error);
+        });
+    });
+  }
+  let deferredPrompt;
+const installButton = document.getElementById('install-btn');
+
+// Detectar se o PWA pode ser instalado
+window.addEventListener('beforeinstallprompt', (e) => {
+  // Prevenir que o prompt automático seja mostrado
+  e.preventDefault();
+  
+  // Armazenar o evento para usá-lo mais tarde
+  deferredPrompt = e;
+  
+  // Mostrar o botão de instalação
+  installButton.style.display = 'block';
+});
+
+// Ação do botão de instalação
+installButton.addEventListener('click', (e) => {
+  // Mostrar o prompt de instalação
+  deferredPrompt.prompt();
+  
+  // Esperar a resposta do usuário
+  deferredPrompt.userChoice.then((choiceResult) => {
+    if (choiceResult.outcome === 'accepted') {
+      console.log('Usuário aceitou a instalação');
+    } else {
+      console.log('Usuário rejeitou a instalação');
+    }
+    // Limpar o evento armazenado
+    deferredPrompt = null;
+  });
+});
