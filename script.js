@@ -193,40 +193,40 @@ if (window.location.href.includes('index')) {
     document.addEventListener('keydown', enterClick);
     submitBtn.addEventListener('click', submitAction)
 }
-// if ('serviceWorker' in navigator) {
-//     window.addEventListener('load', () => {
-//       navigator.serviceWorker.register('/sw.js')  // Caminho correto para o seu Service Worker
-//         .then((registration) => {
-//           console.log('Service Worker registrado com sucesso:', registration);
-//         })
-//         .catch((error) => {
-//           console.log('Falha ao registrar o Service Worker:', error);
-//         });
-//     });
-//   }
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js')  // Caminho correto para o seu Service Worker
+        .then((registration) => {
+          console.log('Service Worker registrado com sucesso:', registration);
+        })
+        .catch((error) => {
+          console.log('Falha ao registrar o Service Worker:', error);
+        });
+    });
+  }
   
   
-//   let deferredPrompt;
+  let deferredPrompt;
 
-//   window.addEventListener('beforeinstallprompt', (e) => {
-//     // Prevenir o prompt padrão
-//     e.preventDefault();
-//     // Armazenar o evento
-//     deferredPrompt = e;
+  window.addEventListener('beforeinstallprompt', (e) => {
+    // Prevenir o prompt padrão
+    e.preventDefault();
+    // Armazenar o evento
+    deferredPrompt = e;
     
-//     // Exibir um botão ou interface de instalação
-//     const installButton = document.getElementById('install-btn');
-//     installButton.style.display = 'block';
+    // Exibir um botão ou interface de instalação
+    const installButton = document.getElementById('install-btn');
+    installButton.style.display = 'block';
   
-//     installButton.addEventListener('click', () => {
-//       deferredPrompt.prompt();
-//       deferredPrompt.userChoice.then((choiceResult) => {
-//         if (choiceResult.outcome === 'accepted') {
-//           console.log('Usuário aceitou a instalação');
-//         } else {
-//           console.log('Usuário rejeitou a instalação');
-//         }
-//         deferredPrompt = null;
-//       });
-//     });
-//   });
+    installButton.addEventListener('click', () => {
+      deferredPrompt.prompt();
+      deferredPrompt.userChoice.then((choiceResult) => {
+        if (choiceResult.outcome === 'accepted') {
+          console.log('Usuário aceitou a instalação');
+        } else {
+          console.log('Usuário rejeitou a instalação');
+        }
+        deferredPrompt = null;
+      });
+    });
+  });
