@@ -29,6 +29,11 @@ a {
   padding: 20px 0 20px 0;
   border-radius: 3px;
 }
+.space .main .title {
+  margin-top: 30px;
+  width: 80%;
+  text-align: center;
+}
 .space .main .logo {
   width: 90%;
   min-width: none;
