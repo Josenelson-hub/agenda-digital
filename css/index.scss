@@ -64,17 +64,19 @@ a {
 
       .alinhamento {
         display: flex;
-            flex-direction: column;
-            align-content: center;
-            justify-content: center;
-            align-items: center;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        border-radius: 3px;
+        align-items: center;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 
           // Item
           .item {
             width: 100px;
-            height: 90px;
+            height: 75px;
             text-align: center;
-            padding: 15px 10px;
+            padding: 10px;
             background-color: #cdd4dc;
             border-top-left-radius: 3px;
             border-top-right-radius: 3px;
@@ -82,8 +84,8 @@ a {
             // Imagem
             img {
               object-fit: cover;
-              height: 60px;
-              width: 60px;
+              height: 50px;
+              width: 50px;
               top: 0;
             }
             &:hover {
@@ -143,28 +145,29 @@ margin-top: 20px;
 
         .alinhamento {
           display: flex;
-              flex-direction: column;
-              align-content: center;
-              justify-content: center;
-              align-items: center;
+          flex-direction: column;
+          align-content: center;
+          justify-content: center;
+          align-items: center;
+          box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+          width: 90px;
 
             // Item
             .item {
-              width: 70px;
-              height: 50px;
+              width: 90px;
+              height: 75px;
               text-align: center;
               background-color: #cdd4dc;
               border-top-left-radius: 3px;
               border-top-right-radius: 3px;
               padding: 0;
               margin: 0px 10px 0 10px;
-              box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 
               // Imagem
               img {
                 object-fit: cover;
-                height: 30px;
-                width: 30px;
+                height: 50px;
+                width: 50px;
                 top: 0;
                 margin-top: 10px;
               }
@@ -176,7 +179,7 @@ margin-top: 20px;
           .texto {
             background-color: #b6bbc2;
             padding: 5px 0 5px 0;
-            width: 70px;
+            width: 90px;
             border-bottom-left-radius: 3px;
             border-bottom-right-radius: 3px;
             text-align: center;
@@ -201,7 +204,6 @@ margin-top: 20px;
   .modal-content {
     background-color: #fff;
     padding: 20px;
-    border-radius: 5px;
     width: 300px;
     text-align: center;
     border-radius: 3px;
@@ -210,7 +212,7 @@ margin-top: 20px;
       width: 100%;
       padding: 10px;
       margin: 10px 0;
-      border-radius: 5px;
+      border-radius: 3px;
       border: 1px solid #ccc;
     }
 
@@ -223,7 +225,7 @@ margin-top: 20px;
       background-color: #0056b3;
       padding: 10px 20px;
       text-decoration: none;
-      border-radius: 5px;
+      border-radius: 3px;
       display: inline-block;
       color: white;
     }
@@ -232,7 +234,7 @@ margin-top: 20px;
       background-color: #0056b3;
       padding: 10px 20px;
       text-decoration: none;
-      border-radius: 5px;
+      border-radius: 3px;
       display: inline-block;
       color: white;
     }
@@ -245,6 +247,7 @@ margin-top: 20px;
   border: none;
   cursor: pointer;
   font-size: 16px;
-  border-radius: 5px;
+  border-radius: 3px;
   margin-top: 30px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
