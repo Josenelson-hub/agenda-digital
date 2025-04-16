@@ -1,6 +1,8 @@
 // Definindo variáveis (opcional, mas ajuda a manter o código organizado)
-$background-color: #cdd4dc;
-$box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.24);
+$primary-color: #cdd4dc;
+$secondary-color: #f1f5f8;
+$box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+$box-shadow-item:rgba(0, 0, 0, 0.24) 0px 3px 8px;
 $font-family: Arial, Helvetica, sans-serif;
 $main-margin-top: 30px;
 
@@ -33,7 +35,7 @@ a {
     flex-direction: column;
     align-items: center;
     margin: 20px 20px 0 20px;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    box-shadow: $box-shadow;
     padding: 20px 0 20px 0;
     border-radius: 3px;
 
@@ -69,7 +71,7 @@ a {
         justify-content: center;
         border-radius: 3px;
         align-items: center;
-        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+        box-shadow: $box-shadow-item;
 
           // Item
           .item {
@@ -77,7 +79,7 @@ a {
             height: 75px;
             text-align: center;
             padding: 10px;
-            background-color: #cdd4dc;
+            background-color: $secondary-color;
             border-top-left-radius: 3px;
             border-top-right-radius: 3px;
 
@@ -88,13 +90,10 @@ a {
               width: 50px;
               top: 0;
             }
-            &:hover {
-              box-shadow: $box-shadow;
-            }
         }
         
         .texto {
-          background-color: #b6bbc2;
+          background-color: $primary-color;
           padding: 5px 0 5px 0;
           width: 100px;
           border-bottom-left-radius: 3px;
@@ -118,7 +117,7 @@ margin-top: 20px;
       justify-content: center;
       flex-direction: column;
       align-items: center;
-      box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+      box-shadow: $box-shadow;
       border-radius: 3px;
       width: 70%;
       margin: 0;
@@ -149,7 +148,7 @@ margin-top: 20px;
           align-content: center;
           justify-content: center;
           align-items: center;
-          box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+          box-shadow: $box-shadow-item;
           width: 90px;
 
             // Item
@@ -157,7 +156,7 @@ margin-top: 20px;
               width: 90px;
               height: 75px;
               text-align: center;
-              background-color: #cdd4dc;
+              background-color: $secondary-color;
               border-top-left-radius: 3px;
               border-top-right-radius: 3px;
               padding: 0;
@@ -171,13 +170,10 @@ margin-top: 20px;
                 top: 0;
                 margin-top: 10px;
               }
-              &:hover {
-                box-shadow: $box-shadow;
-              }
           }
 
           .texto {
-            background-color: #b6bbc2;
+            background-color: $primary-color;
             padding: 5px 0 5px 0;
             width: 90px;
             border-bottom-left-radius: 3px;
@@ -241,7 +237,7 @@ margin-top: 20px;
   }
 }
 #install-btn {
-  background-color: #b6bbc2;
+  background-color: $primary-color;
   color: black;
   padding: 10px 20px;
   border: none;
@@ -249,5 +245,5 @@ margin-top: 20px;
   font-size: 16px;
   border-radius: 3px;
   margin-top: 30px;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  box-shadow: $box-shadow-item;
 }
