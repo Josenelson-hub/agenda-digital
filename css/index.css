@@ -78,7 +78,7 @@ a {
   top: 0;
 }
 .space .main .center .alinhamento .texto {
-  background-color: #cdd4dc;
+  background: linear-gradient(170deg, #cdd4dc, #f1f5f8);
   padding: 5px 0 5px 0;
   width: 100px;
   border-bottom-left-radius: 3px;
@@ -149,7 +149,7 @@ a {
     margin-top: 10px;
   }
   .space .main .center .alinhamento .texto {
-    background-color: #cdd4dc;
+    background: linear-gradient(170deg, #cdd4dc, #f1f5f8);
     padding: 5px 0 5px 0;
     width: 90px;
     border-bottom-left-radius: 3px;
@@ -206,7 +206,7 @@ a {
 }
 
 #install-btn {
-  background-color: #cdd4dc;
+  background-color: linear-gradient(170deg, #cdd4dc, #f1f5f8);
   color: black;
   padding: 10px 20px;
   border: none;

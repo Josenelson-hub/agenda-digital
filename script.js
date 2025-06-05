@@ -18,6 +18,7 @@ const renderData = (url, key, label1, label2) => {
 
                     let p = document.createElement('p');
                     p.textContent = item[label2];
+                    p.innerHTML = item[label2].replace(/--/g, '<br>');
 
                     if(window.location.href.includes('igrejas')){
                         let link = document.createElement('a');

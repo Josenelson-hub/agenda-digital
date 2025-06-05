@@ -1,5 +1,5 @@
 // Definindo variáveis opcional, mas útil para manter o código mais organizado
-$background-color: #cdd4dc;
+$background-color: linear-gradient(115deg, #cdd4dc, #f1f5f8);
 $box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.24);
 $font-family: Arial, Helvetica, sans-serif;
 $transition-duration: 0.7s;
@@ -41,7 +41,7 @@ a {
 }
 
 .header {
-  background-color: $background-color;
+  background: $background-color;
   top: 0;
   width: 100%;
   display: flex;
@@ -51,24 +51,17 @@ a {
   justify-content: space-between;
   align-items: baseline;
   box-shadow: $box-shadow;
+  z-index: 999;
 }
 
 .titulo {
   margin-right: 40px;
   margin-top: 16px;
-  background-color: $background-color;
 }
 
 .main {
   margin-top: 100px;
   max-height: 68.4px;
-}
-
-.list {
-  margin: 10px 0 0 20px;
-  border-bottom: solid 1px $border-color;
-  animation-name: example;
-  animation-duration: $transition-duration;
 }
 
 p {
@@ -87,16 +80,37 @@ img {
 .listagem {
   margin: 100px 0 0 0;
   display: flex;
-  gap: 5px;
+  gap: 15px;
   flex-direction: column;
   margin-bottom: 20px;
 }
+
+.list {
+  margin: 20px;
+  padding: 15px 25px 0px 25px;
+  border-radius: 3px;
+  background: $background-color;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1), inset 0 0 10px #ffffffaa;
+  border: 1px solid rgba(200, 210, 220, 0.6);
+  backdrop-filter: blur(6px);
+  animation-name: example;
+  animation-duration: $transition-duration;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2), inset 0 0 15px #ffffffcc;
+    cursor: pointer;
+  }
+}
+
 
 .item-lista {
   text-align: center;
   font-size: $font-size-item-lista;
   padding: 20px;
   margin: 0 10px 0 10px;
-  background-color: $background-color;
-  border-radius: 5px;
+  background: $background-color;
+  border-radius: 3px;
+  border: 1px solid rgba(200, 210, 220, 0.6);
 }

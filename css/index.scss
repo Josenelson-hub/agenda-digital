@@ -1,5 +1,5 @@
 // Definindo variáveis (opcional, mas ajuda a manter o código organizado)
-$primary-color: #cdd4dc;
+$primary-color: linear-gradient(170deg, #cdd4dc, #f1f5f8);
 $secondary-color: #f1f5f8;
 $box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 $box-shadow-item: rgba(17, 17, 26, 0.1) 0px 1px 0px;
@@ -93,7 +93,7 @@ a {
         }
         
         .texto {
-          background-color: $primary-color;
+          background: $primary-color;
           padding: 5px 0 5px 0;
           width: 100px;
           border-bottom-left-radius: 3px;
@@ -173,7 +173,7 @@ margin-top: 20px;
           }
 
           .texto {
-            background-color: $primary-color;
+            background: $primary-color;
             padding: 5px 0 5px 0;
             width: 90px;
             border-bottom-left-radius: 3px;
