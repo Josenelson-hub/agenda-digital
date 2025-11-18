@@ -39,6 +39,8 @@ export const renderData = (url, key, label1, label2) => {
                     let link = document.createElement('a');
                     link.href = item.url;
 
+                    div.classList.add('igreja')
+
                     link.appendChild(div);
                     div.appendChild(contentDiv);
                     div.appendChild(iconDiv);

@@ -98,10 +98,13 @@ img {
   margin-bottom: 20px;
 }
 
-.list {
+.igreja {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.list {
   margin: 20px;
   padding: 11px 25px 10px 25px;
   border-radius: 3px;
